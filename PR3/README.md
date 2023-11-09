@@ -18,5 +18,7 @@
 7. Grafana Loki
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/72bc709b-cef5-42f8-8e2f-963ca5fc8098)
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/76c291b6-8a8b-42c0-9535-379735743c60)
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/b518e5a7-0ff2-45a5-9ed5-42e4786b71eb)
+8. 
    
    
