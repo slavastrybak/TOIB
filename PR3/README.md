@@ -20,7 +20,10 @@
    
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/72bc709b-cef5-42f8-8e2f-963ca5fc8098)
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/76c291b6-8a8b-42c0-9535-379735743c60)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/b518e5a7-0ff2-45a5-9ed5-42e4786b71eb)
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/97dbca6e-2b55-4132-bfba-b47ff8fb0deb)
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/02e62e6e-25af-4e1f-ad1a-4bb3b24b2d27)
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/e98b3287-a45f-4e6c-98c9-5ccb3746619c)
+   
 10. 
    
    
