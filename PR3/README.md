@@ -12,7 +12,6 @@
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/3cbd5e8a-f5e9-462f-bad6-7b1c23e7f15b)
 5. Применение конфигурации
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/cf98b834-9c99-4eb7-a9e1-ed07421e1ed5)
-6. Просмотр логов
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/1f6038ea-061b-455c-a16c-d85488d3a19c)
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/6bfabad0-cfa9-437d-bbf1-7c80e6a0cadf)
 
