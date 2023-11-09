@@ -13,12 +13,14 @@
 5. Применение конфигурации
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/cf98b834-9c99-4eb7-a9e1-ed07421e1ed5)
 6. Просмотр логов
+   
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/1f6038ea-061b-455c-a16c-d85488d3a19c)
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/6bfabad0-cfa9-437d-bbf1-7c80e6a0cadf)
-7. Grafana Loki
+8. Grafana Loki
+   
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/72bc709b-cef5-42f8-8e2f-963ca5fc8098)
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/76c291b6-8a8b-42c0-9535-379735743c60)
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/b518e5a7-0ff2-45a5-9ed5-42e4786b71eb)
-8. 
+10. 
    
    
