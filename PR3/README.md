@@ -1,29 +1,73 @@
-1. Установка и настройка rsyslog на сервере
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/6f0317b2-09d0-4ae1-906f-76a3cae2a9dc)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/88487313-6396-4c28-8646-f0e38416a502)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/33301b28-2bf1-4814-b5f1-c40e7ef2fa9e)
-2. Применение конфигурации rsyslog
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/e2d6aebc-1a7c-4f58-a791-72410f6c2177)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/3a72dbba-8e45-445d-9358-8a5e14490ad3)
-3. Установка rsyslog на клиент
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/598750e7-71c0-48ad-9e94-f3b5401600cd)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/84c5f5b2-d48b-4f02-8095-8212988fbc11)
-4. Добавление правил пересылки логов
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/3cbd5e8a-f5e9-462f-bad6-7b1c23e7f15b)
-5. Применение конфигурации
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/cf98b834-9c99-4eb7-a9e1-ed07421e1ed5)
-6. Просмотр логов
+1. Создать 2 виртуальные машины на базе ОС Debian 12
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/3edec274-3fea-4eee-919e-1906556563b3)
+2. Обеспечить между ними сетевой обмен
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/5c00326a-f85f-478a-b4ed-d4475f09254c)
+3. Включить на 1й из ВМ передачу логов по протоколу rsyslog на 2ю ВМ
    
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/1f6038ea-061b-455c-a16c-d85488d3a19c)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/6bfabad0-cfa9-437d-bbf1-7c80e6a0cadf)
-8. Grafana Loki
+   **Установка и настройка rsyslog**
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/9b6d4f97-ce83-42ef-8a88-355e57efda59)
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/7a3ea3dd-0e5b-4980-9e10-9ccf1c4fd4ad)
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/4430f5c2-5124-4ff8-96c8-7fed6f354d16)
    
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/72bc709b-cef5-42f8-8e2f-963ca5fc8098)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/76c291b6-8a8b-42c0-9535-379735743c60)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/97dbca6e-2b55-4132-bfba-b47ff8fb0deb)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/02e62e6e-25af-4e1f-ad1a-4bb3b24b2d27)
-   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/e98b3287-a45f-4e6c-98c9-5ccb3746619c)
+   **Установка правил на сервер**
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/84eb36fd-2f8d-4d87-a1a6-8e7a42829670)
+
+   **Установка правил на клиент**
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/e7072668-8d80-480d-a52f-d8e1f1b5279f)
+
+   **Проверка**
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/078c64d8-b5bf-4d81-9135-4cf5c4d362e8)
+
+   **Проверка получения логов на сервере**
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/e8d2042e-ad84-4daa-9534-704740ecd1e3)
+
+4. Установить и настроить получение логов на сервер с использованием Loki
    
-10. 
+ **Установка и редактирование compose-файла на сервере**
+ ![image](https://github.com/slavastrybak/TOIB/assets/70744558/c0684f52-fb5d-4213-86a6-29bb4f1fe9f4)
+ ![image](https://github.com/slavastrybak/TOIB/assets/70744558/51f265f3-2a5e-4c26-a52f-4a73edb569b9)
+   
+ **Запуск Loki**
+ ![image](https://github.com/slavastrybak/TOIB/assets/70744558/4d9c572e-eda8-4082-afee-57128b17fca5)
+
+ **Редактирование promtail на клиенте**
+ ![image](https://github.com/slavastrybak/TOIB/assets/70744558/ca09584e-7450-4d01-982f-e3c75f5f3c1f)
+
+ **Compose-файл для promtail**
+ ![image](https://github.com/slavastrybak/TOIB/assets/70744558/28ae2a11-e39c-4869-8368-b711bd6b3f39)
+
+ **Запуск promtail на клиенте**
+ ![image](https://github.com/slavastrybak/TOIB/assets/70744558/e1522f97-0383-4bd8-a6de-417257b35464)
+
+ **Просмотр логов клиента в Grafana**
+ ![image](https://github.com/slavastrybak/TOIB/assets/70744558/47f4db78-80ec-4e29-ba55-a2f0ded90cbc)
+ 
+9. Установить и настроить получение логов на сервер с использованием Signoz
+
+   _Установка происходила согласно https://signoz.io/docs/install/docker/#install-signoz-using-docker-compose_
+
+   **Запуск Signoz**
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/b76560d6-fadb-4efd-af62-d5dd59b67a89)
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/6c072514-c717-4d33-a51e-1016fd09f748)
+
+   **Редактирование конфигурации на клиенте для отправки данных в Signoz**
+   
+   _Приложение - https://github.com/SigNoz/sample-nodejs-app/_
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/7f1aab46-fecf-4e39-a032-5bd8549186c7)
+
+   **Запуск клиентского приложения**
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/ff1a30e5-e167-4240-ae1f-e4764d4d9771)
+
+   **Проверка получения логов в Signoz**
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/67130da5-f924-4146-a4fc-bf5edc38e816)
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/258af7a4-eae2-45a1-b1df-08fb6b983aeb)
+
+
+
+
    
    
+
+
+
+
