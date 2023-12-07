@@ -24,6 +24,7 @@
 ![image](https://github.com/slavastrybak/TOIB/assets/70744558/706a049e-ba2a-4a36-b448-f9576c8e7456)
 
 9. Инициализация afick
+    
 ![image](https://github.com/slavastrybak/TOIB/assets/70744558/f4704c3c-85ae-4bb3-bdfc-981ee551189b)
 
 10. Отслеживание изменений в ФС с помощью afick
