@@ -31,7 +31,7 @@
     
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/b1f0a166-1839-4d1f-b499-84c060cf53fc)
 
-23. Создание цифровой подписи, вставленной в содержимое файла
+9. Создание цифровой подписи, вставленной в содержимое файла
     
-25. ![image](https://github.com/slavastrybak/TOIB/assets/70744558/781e2165-c066-4139-8107-f7cb47dac37e)
+   ![image](https://github.com/slavastrybak/TOIB/assets/70744558/781e2165-c066-4139-8107-f7cb47dac37e)
 
