@@ -1,6 +1,6 @@
 1. Определение IP-адреса порта S0/0/0 на маршрутизаторе RA
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/007b1a19-b67d-4855-a8a0-4efadf871882)
-   
+
 2. Пинг с RB на RA
    ![image](https://github.com/slavastrybak/TOIB/assets/70744558/550fa9b4-c8b6-4391-a84f-c646b6a25a57)
 
